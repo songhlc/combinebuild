@@ -1,0 +1,24 @@
+{
+  "name": "combinebuild",
+  "version": "1.0.0",
+  "description": "monorepo project build multiple project int one directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songhlc/combinebuild.git"
+  },
+  "author": "songjl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/songhlc/combinebuild/issues"
+  },
+  "homepage": "https://github.com/songhlc/combinebuild#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0"
+  }
+}
