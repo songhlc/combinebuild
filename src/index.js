@@ -40,4 +40,5 @@ exports.default = function (filePath) {
     return build(fileItem)
   })
   return series(clean, parallel.apply(null, params), copyfileTask(filePath))
+  // return series(clean, copyfileTask(filePath))
 }
